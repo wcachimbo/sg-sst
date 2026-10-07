@@ -1,0 +1,33 @@
+{
+  "name": "sg-sst",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "@univerjs/preset-docs-core": "^1.0.3",
+    "@univerjs/preset-sheets-core": "^1.0.3",
+    "@univerjs/presets": "^1.0.3",
+    "docx": "^9.8.1",
+    "exceljs": "^4.4.0",
+    "lucide-react": "^1.49.0",
+    "mammoth": "^1.13.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.4.299",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  }
+}

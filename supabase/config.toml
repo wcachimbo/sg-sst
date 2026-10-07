@@ -1,0 +1,11 @@
+project_id = "sg-sst-platform"
+
+[functions.create-employee]
+verify_jwt = true
+
+[functions.manage-employee]
+verify_jwt = true
+
+[functions.audit-findings-portal]
+# La sección del auditor es pública; la función valida un token privado de auditoría.
+verify_jwt = false
